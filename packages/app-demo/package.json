@@ -1,0 +1,22 @@
+{
+  "name": "app-demo",
+  "scripts": {
+    "build": "phala-pack"
+  },
+  "dependencies": {
+    "@phala/nng-pack": "workspace:packages/pack",
+    "@phala/nng-router": "workspace:packages/router",
+    "@phala/react-hooks": "workspace:packages/hooks",
+    "@types/react": "^17.0.4",
+    "baseui": "^9.113.0",
+    "nextjs-redirect": "^5.0.2",
+    "styletron-engine-atomic": "^1.4.7",
+    "styletron-react": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/styletron-engine-atomic": "^1.1.0",
+    "@types/styletron-react": "^5.0.2",
+    "@types/styletron-standard": "^2.0.1",
+    "typescript": "^4.2.4"
+  }
+}

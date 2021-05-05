@@ -1,0 +1,30 @@
+{
+  "name": "@phala/react-hooks",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src"
+  },
+  "scripts": {
+    "install-peers": "install-peers"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "install-peers-cli": "^2.2.0",
+    "ts-loader": "9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@polkadot/api": "4.8.1",
+    "@polkadot/api-derive": "4.8.1",
+    "@polkadot/extension-dapp": "0.37.2",
+    "@polkadot/extension-inject": "0.37.2",
+    "@polkadot/types": "4.8.1",
+    "@polkadot/util": "6.3.1",
+    "@polkadot/util-crypto": "6.3.1"
+  }
+}
